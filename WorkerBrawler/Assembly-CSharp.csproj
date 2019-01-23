@@ -64,6 +64,7 @@
     <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
     <Compile Include="Assets\Scripts\ArrayTweener.cs" />
+    <Compile Include="Assets\Scripts\caritauaja.cs" />
     <Compile Include="Assets\Scripts\changeScene.cs" />
     <Compile Include="Assets\Scripts\ChooseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerScr.cs" />

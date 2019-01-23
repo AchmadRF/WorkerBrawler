@@ -73,6 +73,63 @@ AnimationClip:
     path: 
     classID: 114
     script: {fileID: 11500000, guid: c5de3a18eb4fb2f43b2ca73625e12f47, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: onJump
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: c5de3a18eb4fb2f43b2ca73625e12f47, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: onatk
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: c5de3a18eb4fb2f43b2ca73625e12f47, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: onDash
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: c5de3a18eb4fb2f43b2ca73625e12f47, type: 3}
   m_PPtrCurves:
   - curve:
     - time: 0
@@ -109,6 +166,27 @@ AnimationClip:
     - serializedVersion: 2
       path: 0
       attribute: 2375121493
+      script: {fileID: 11500000, guid: c5de3a18eb4fb2f43b2ca73625e12f47, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 1218945844
+      script: {fileID: 11500000, guid: c5de3a18eb4fb2f43b2ca73625e12f47, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 3734975108
+      script: {fileID: 11500000, guid: c5de3a18eb4fb2f43b2ca73625e12f47, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 1954183202
       script: {fileID: 11500000, guid: c5de3a18eb4fb2f43b2ca73625e12f47, type: 3}
       typeID: 114
       customType: 0
@@ -220,6 +298,63 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: walk
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: c5de3a18eb4fb2f43b2ca73625e12f47, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: onJump
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: c5de3a18eb4fb2f43b2ca73625e12f47, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: onatk
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: c5de3a18eb4fb2f43b2ca73625e12f47, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: onDash
     path: 
     classID: 114
     script: {fileID: 11500000, guid: c5de3a18eb4fb2f43b2ca73625e12f47, type: 3}

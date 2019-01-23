@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 535578585}
+  m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &290906227
@@ -293,18 +293,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 50
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Exit
 --- !u!222 &484409446
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -395,6 +395,7 @@ GameObject:
   - component: {fileID: 535578588}
   - component: {fileID: 535578587}
   - component: {fileID: 535578586}
+  - component: {fileID: 535578590}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -492,9 +493,21 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 255, y: 120}
-  m_SizeDelta: {x: 500, y: 70}
+  m_AnchoredPosition: {x: 329, y: 962.00006}
+  m_SizeDelta: {x: 812.2, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &535578590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535578585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a8694b6e53cf845889f4e4aa68c7ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pos: {x: 0, y: 0, z: 0}
 --- !u!1 &675105949
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,18 +564,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 50
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Settings
 --- !u!222 &675105952
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -625,18 +638,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 50
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Credit
 --- !u!222 &892226200
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -699,18 +712,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 50
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: PLay
 --- !u!222 &1050724285
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -728,6 +741,7 @@ GameObject:
   - component: {fileID: 1208029546}
   - component: {fileID: 1208029545}
   - component: {fileID: 1208029544}
+  - component: {fileID: 1208029547}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -751,8 +765,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 255, y: -85}
-  m_SizeDelta: {x: 500, y: 70}
+  m_AnchoredPosition: {x: 329, y: 757.00006}
+  m_SizeDelta: {x: 812.2, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1208029544
 MonoBehaviour:
@@ -828,6 +842,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1208029542}
+--- !u!114 &1208029547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1208029542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a8694b6e53cf845889f4e4aa68c7ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pos: {x: 0, y: 0, z: 0}
 --- !u!1 &1571919900
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,6 +865,7 @@ GameObject:
   - component: {fileID: 1571919904}
   - component: {fileID: 1571919903}
   - component: {fileID: 1571919902}
+  - component: {fileID: 1571919905}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: Untagged
@@ -862,8 +889,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 255, y: -190}
-  m_SizeDelta: {x: 500, y: 70}
+  m_AnchoredPosition: {x: 329, y: 652}
+  m_SizeDelta: {x: 812.2, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1571919902
 MonoBehaviour:
@@ -939,6 +966,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1571919900}
+--- !u!114 &1571919905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1571919900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a8694b6e53cf845889f4e4aa68c7ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pos: {x: 0, y: 0, z: 0}
 --- !u!1 &1597696847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,10 +1087,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd30cf6a16131b47bbfb09cbb1bfc71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btn: []
-  val: 1
-  batasAtas: 4
-  BatasBawah: 1
+  btn:
+  - obj: {fileID: 535578589}
+    posisiAkhir: {x: 6.329741, y: 2.30872, z: 90}
+    posisiAwal: {x: 7.90929, y: 2.30872, z: 90}
+    waktu: 0.8
+    delay: 0
+    ease: 0
+  - obj: {fileID: 2040348927}
+    posisiAkhir: {x: 6.329741, y: 0.404026, z: 90}
+    posisiAwal: {x: 7.90929, y: 0.404026, z: 90}
+    waktu: 0.6
+    delay: 0
+    ease: 0
+  - obj: {fileID: 1208029543}
+    posisiAkhir: {x: 6.329741, y: -1.635343, z: 90}
+    posisiAwal: {x: 7.90929, y: -1.635343, z: 90}
+    waktu: 0.4
+    delay: 0
+    ease: 0
+  - obj: {fileID: 1571919901}
+    posisiAkhir: {x: 6.329741, y: -3.655473, z: 90}
+    posisiAwal: {x: 7.90929, y: -3.655473, z: 90}
+    waktu: 0.2
+    delay: 0
+    ease: 0
+  val: 0
+  batasAtas: 3
+  BatasBawah: 0
   change: 0
 --- !u!1 &2040348926
 GameObject:
@@ -1064,6 +1127,7 @@ GameObject:
   - component: {fileID: 2040348930}
   - component: {fileID: 2040348929}
   - component: {fileID: 2040348928}
+  - component: {fileID: 2040348931}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -1087,8 +1151,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 255, y: 21}
-  m_SizeDelta: {x: 500, y: 70}
+  m_AnchoredPosition: {x: 329, y: 863.00006}
+  m_SizeDelta: {x: 812.2, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040348928
 MonoBehaviour:
@@ -1164,3 +1228,15 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2040348926}
+--- !u!114 &2040348931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2040348926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a8694b6e53cf845889f4e4aa68c7ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pos: {x: 0, y: 0, z: 0}
