@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 
 public class ChooseMenu : MonoBehaviour {
@@ -26,13 +27,19 @@ public class ChooseMenu : MonoBehaviour {
     }
     void Start()
     {
+        val = 0;
         for (int i = 0; i < btn.Length; i++)
         {
             if (btn[i].ease == Ease.Unset)
+            {
                 btn[i].ease = Ease.OutBack;
+                
+            }
             btn[i].obj.DOMove(btn[i].posisiAwal, btn[i].waktu).SetDelay(btn[i].delay).SetEase(btn[i].ease);
+            
+           
         }
-        change = true;
+        //change = true;
 
         for (int i = 0; i < btn.Length; i++)
         {
@@ -49,6 +56,10 @@ public class ChooseMenu : MonoBehaviour {
            
             val += -plus;
             change = true;
+            if(val == 0)
+            {
+                val = 4;
+            }
         }
         if (Input.GetAxis("Vertical") < 0)
         {
@@ -60,13 +71,34 @@ public class ChooseMenu : MonoBehaviour {
 
         if (val > batasAtas)
         {
-            val = batasAtas;
+            val = 1;
         }
-        if (val < BatasBawah)
-        {
-            val = BatasBawah;
-        }
+        //if (val < BatasBawah)
+        //{
+        //    val = BatasBawah;
+        //}
 
+        if (Input.GetKeyDown(KeyCode.Joystick1Button0))
+        {
+            string inScene = "";
+            if (val == 1)
+            {
+                inScene = "choseChara";
+            }
+            if (val == 2)
+            {
+                inScene = "Setting";
+            }
+            if (val == 3)
+            {
+                inScene = "Credit";
+            }
+            if (val == 4)
+            {
+                inScene = "Exit";
+            }
+            choseMenu(inScene);
+        }
 
         if (Input.GetAxis("Vertical") == 0)
         {
@@ -88,10 +120,22 @@ public class ChooseMenu : MonoBehaviour {
        
     }
 
+    public void choseMenu(string scene)
+    {
+        if (scene != "Exit")
+        {
+            Application.Quit();
+        }
+        else {
+            SceneManager.LoadScene(scene);
+
+        }
+    }
+
     void movingBtn()
     {
         
-        for(int i = 0;i<4; i++ )
+        for(int i = 1;i<5; i++ )
         {
             if (i == val)
             {

@@ -1088,22 +1088,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   btn:
-  - obj: {fileID: 535578589}
+  - obj: {fileID: 0}
     posisiAkhir: {x: 6.329741, y: 2.30872, z: 90}
     posisiAwal: {x: 7.90929, y: 2.30872, z: 90}
     waktu: 0.8
     delay: 0
     ease: 0
+  - obj: {fileID: 535578589}
+    posisiAkhir: {x: 6.329741, y: 2.30872, z: 90}
+    posisiAwal: {x: 7.90929, y: 2.30872, z: 90}
+    waktu: 0.6
+    delay: 0
+    ease: 0
   - obj: {fileID: 2040348927}
     posisiAkhir: {x: 6.329741, y: 0.404026, z: 90}
     posisiAwal: {x: 7.90929, y: 0.404026, z: 90}
-    waktu: 0.6
+    waktu: 0.4
     delay: 0
     ease: 0
   - obj: {fileID: 1208029543}
     posisiAkhir: {x: 6.329741, y: -1.635343, z: 90}
     posisiAwal: {x: 7.90929, y: -1.635343, z: 90}
-    waktu: 0.4
+    waktu: 0.2
     delay: 0
     ease: 0
   - obj: {fileID: 1571919901}
@@ -1113,7 +1119,7 @@ MonoBehaviour:
     delay: 0
     ease: 0
   val: 0
-  batasAtas: 3
+  batasAtas: 4
   BatasBawah: 0
   change: 0
 --- !u!1 &2040348926

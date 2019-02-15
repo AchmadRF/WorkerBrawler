@@ -66,8 +66,10 @@
     <Compile Include="Assets\Scripts\ArrayTweener.cs" />
     <Compile Include="Assets\Scripts\caritauaja.cs" />
     <Compile Include="Assets\Scripts\changeScene.cs" />
+    <Compile Include="Assets\Scripts\ChooseManager.cs" />
     <Compile Include="Assets\Scripts\ChooseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerScr.cs" />
+    <Compile Include="Assets\Scripts\selectChara.cs" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>E:/GIT/WorkerBrawler/WorkerBrawler/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
